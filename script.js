@@ -12,6 +12,4 @@ const fetchAdvice = async() => {
     adviceText.textContent = `"${data.slip.advice}"`
 }
 
-fetchAdvice()
-
 diceButton.addEventListener("click", fetchAdvice);
